@@ -19,15 +19,24 @@
     <header class="header">
       <div class="header-left">
         <div class="logo">
-          <img src="./img/img1.png" alt="logo">
-          <img src="./img/img2.png" alt="logo">
+          <a href="/index.html"><img src="./img/img1.png" alt="logo"></a>
         </div>
         <div class="ddmm">
-          <div class="day" style="font-size: 45px">16-17</div>
-          <div class="month-year" style="font-size: 25px;">07/2021</div>
+          <div class="day">16-17</div>
+          <div class="month-year">07/2021</div>
         </div>
       </div>
-
+      <input type="checkbox" id="check" />
+          <div class="barMenu">  
+                 
+            <svg class="barMenulogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 338.7 54.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+            <label for="check"> </label> 
+          </div>
+          <div class="links-mobile">
+            <a class="js__login"> Đăng Nhập</a>
+            <a href="#register"> Đăng Ký </a>
+            <a href="">Trang cá nhân</a>
+          </div>
       <div class="header-right">
         <div class="header-right-slogan" style="text-align: right;">Chào mừng bạn đến với Triển lãm ageLOC EXPO-PRS 2021
           </br> Đồng hành với bạn là Đại
@@ -35,20 +44,20 @@
           Đối tác Thương hiệu <strong>Hồ Đan Thư</strong> </div>
 
         <div class="logre">
-          <a href="login">| Đăng Nhập
+          <a class="js__login">| Đăng Nhập
           </a>
-          <a href="register">/ Đăng
+          <a href="#register">/ Đăng
             Ký</a>
         </div>
       </div>
   </div>
+  </header>
   <div class="slider">
     <img src="/img/Rectangle 3.png" alt="Slide 1" />
     <img src="/img/Rectangle 3.png" alt="Slide 2" />
     <img src="/img/Rectangle 3.png" alt="Slide 3" />
   </div>
-  </header>
-
+<div class="container">
   <section class="intro">
     <div class="container--intro">
       <h2>NU SKIN AEGELOC EXPO </br>THƯ CÁM ƠN</h2>
@@ -61,6 +70,34 @@
         tincidunt diam est.Magna tellus eu non eget odio. Magna sit etiam morbi sodales vel et pellentesque.</p>
     </div>
   </section>
+  </div>
+    <div id="countdown" class="countdown countdown__image" style="background-image: url(./img/coutdown.png);">
+      <h1>GBE 2022</h1>
+      <div class="countdown__launch-time">
+        <div class="countdown__launch-time--time">
+          <h2 id="days"></h2>
+          <small>Day(s)</small>
+        </div>
+        <span>:</span>
+        <div class="countdown__launch-time--time">
+          <h2 id="hours"></h2>
+          <small>Hour(s)</small>
+        </div>
+        <span>:</span>
+        <div class="countdown__launch-time--time">
+          <h2 id="minutes"></h2>
+          <small>Minute(s)</small>
+        </div>
+        <span>:</span>
+        <div class="countdown__launch-time--time">
+          <h2 id="seconds"></h2>
+          <small>Second(s)</small>
+        </div>
+      </div>
+  
+
+    </div>
+  
   
 
   <footer class="footer">

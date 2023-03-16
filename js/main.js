@@ -1,6 +1,15 @@
 console.log(window.innerWidth)
-if(window.innerWidth < 1024){
+if(window.innerWidth < 740){
   document.querySelectorAll(".section-images__list--item").forEach(function(cur, inx){
+    console.log(inx);
+    if(inx > 5){
+      cur.remove()
+    }
+  })
+}
+console.log(window.innerWidth)
+if(window.innerWidth < 1024){
+  document.querySelectorAll(".section-images3__list--item1").forEach(function(cur, inx){
     console.log(inx);
     if(inx > 5){
       cur.remove()
@@ -42,7 +51,7 @@ $(document).ready(function () {
               slidesToShow: 2,
               slidesToScroll: 2,
               centerMode: true,
-              centerPadding: "20% 0 0",
+              centerPadding: "30% 0 0",
             }
           },
           {
@@ -50,6 +59,8 @@ $(document).ready(function () {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
+              centerMode: true,
+              centerPadding: "30% 0 0",
             }
           },
           // You can unslick at a given breakpoint now by adding:
